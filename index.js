@@ -19,7 +19,7 @@ const inject = () => {
 
 
     title.classList.add("title")
-    title.textContent = "App Title"
+    title.textContent = "Emoji Array"
     container.appendChild(title)
 
     inputField.classList.add("input-field")
