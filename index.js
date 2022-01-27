@@ -1,7 +1,7 @@
-const body = document.querySelector("body")
+const main = document.querySelector(".main")
 const container = document.createElement("div")
 container.classList.add("container")
-body.appendChild(container)
+main.appendChild(container)
 
 const title = document.createElement("h1")
 title.classList.add("title")
