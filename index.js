@@ -12,6 +12,11 @@ const inject = () => {
     container.classList.add("container")
     main.appendChild(container)
 
+    const lstWrap = document.createElement("div")
+    lstWrap.classList.add("lst-wrap")
+    container.appendChild(lstWrap)
+
+
     title.classList.add("title")
     title.textContent = "App Title"
     container.appendChild(title)
@@ -37,6 +42,7 @@ const inject = () => {
         function resetInput() {  
             inputField.value = ""
             console.log("lst: "+lst)
+            lstWrap.textContent = lst.join("  ")
         }
 
         function setBtn(nameOfClass) {
