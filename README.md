@@ -1,10 +1,12 @@
 
 # Emoji Array
 
-<p>Project idea from [Scrimba.com](http://Scrimba.com) - used for GitHub basic training</p>
+Project idea from Scrimba.com - Used for GitHub basic training
 
 ## What?
-An empty html get an JS-injection. It give your possibility to type in some emoji and store it in an array. 
+An empty html get an JS-injection. You have the possibility to type an emoji into an input field which will be stored in your array and then displayed in a container.
+
+There are buttons to insert input either at the beginning or at the end, also the first or last object can be removed. 
 
 ## Why?
 The project was build to navigate over GitHub, use the VSCode connection und train commits.
