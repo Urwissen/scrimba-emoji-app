@@ -2,6 +2,7 @@
 const main = document.querySelector(".main")
 const title = document.createElement("h1")
 const inputField = document.createElement("input")
+inputField.placeholder = "type your 🚀"
 
 const lst = []
 
