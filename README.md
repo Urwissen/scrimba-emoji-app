@@ -1,31 +1,13 @@
-# title(){return this.options.title||this.options.name}
 
-Quick start:
+# Emoji Array
 
-```
-$ yarn # npm install
-$ yarn build # npm run build
-````
+<p>Project idea from [Scrimba.com](http://Scrimba.com) - used for GitHub basic training</p>
 
-## Development
+## What?
+An empty html get an JS-injection. It give your possibility to type in some emoji and store it in an array. 
 
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
+## Why?
+The project was build to navigate over GitHub, use the VSCode connection und train commits.
 
-```
-$ yarn watch # npm run watch
-```
+### Thanks to <a href="https://scrimba.com">Scrimba.com</a>
 
-## Supporting Scrimba
-
-Since 2017, we have created over 20 free courses on Scrimba, and we're going to
-continue launching free courses. But to pay our bills, we have to charge once
-in a while. So if you've ever wanted to "give back" to Scrimba, you can do that by buying
-	one of our paid courses
-
-- [Become a professional React developer](https://scrimba.com/course/greact)
-- [The Responsive Web Design Bootcamp](https://scrimba.com/course/gresponsive)
-- [The Ultimate JavaScript Bootcamp](https://scrimba.com/course/gjavascript)
-
-	It would also mean the world to us if you share the courses.  
-
-Happy Coding!
