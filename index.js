@@ -4,7 +4,7 @@ const title = document.createElement("h1")
 const inputField = document.createElement("input")
 inputField.placeholder = "type your 🚀"
 
-const lst = []
+const lst = ["🏆","👻", "🤖"]
 
 const inject = () => {
     
@@ -15,8 +15,9 @@ const inject = () => {
 
     const lstWrap = document.createElement("div")
     lstWrap.classList.add("lst-wrap")
+    lstWrap.textContent = lst.join("  ")
     container.appendChild(lstWrap)
-
+    
 
     title.classList.add("title")
     title.textContent = "Emoji Array"
@@ -45,6 +46,8 @@ const inject = () => {
             console.log("lst: "+lst)
             lstWrap.textContent = lst.join("  ")
         }
+
+        resetInput()
 
         function setBtn(nameOfClass) {
             btn.classList.add(nameOfClass)
